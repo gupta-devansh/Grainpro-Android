@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7DBAA"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#7A954E"
+        android:text="select image" />
+
+    <ImageView
+        android:id="@+id/original_image_view"
+        android:layout_width="232dp"
+        android:layout_height="211dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Original Image"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/processed_image_view"
+        android:layout_width="380dp"
+        android:layout_height="275dp"
+        android:contentDescription="Processed Image"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/processed_image_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
